@@ -11,7 +11,7 @@
 
 [rewrite_local]
 
-^https:\/\/api-v2\.xdclass\.net\/api\/account\/v\d\/(detail|login) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/xdkt.js
+^https:\/\/api-v2\.xdclass\.net\/api\/account\/v\d\/(detail|login) url script-response-body https://raw.githubusercontent.com/lxs1976/Rewriteqqq/main/xdkt.js
 
 [mitm]
 hostname = api-v2.xdclass.net
