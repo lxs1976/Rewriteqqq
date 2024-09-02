@@ -23,10 +23,10 @@ var chxm1023 = JSON.parse($response.body);
 
 chxm1023.data = {
   ...chxm1023.data,
-  "vipExpired" : "2024-09-09 09:09:09",
+  "vipExpired" : "2024-09-20 09:09:09",
   "vipRank" : 1,
-  "medal" : "MONTH_VIP"
-  "identityType" : "永久会员",
+  "medal" : "MONTH_VIP",
+  "identityType" : "月度会员",
   "role" : "MONTH_VIP"
 };
 
