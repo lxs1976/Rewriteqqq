@@ -1,5 +1,5 @@
 [rewrite_local]
-^https:\/\/edu\.51itzl\.com\/frontend\/get_data url script-response-body charge_to_zero.js
+^https:\/\/edu\.51itzl\.com\/frontend\/get_data url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/charge_to_zero.js
 
 [mitm]
 hostname = edu.51itzl.com
