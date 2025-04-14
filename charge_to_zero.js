@@ -1,5 +1,6 @@
 [rewrite_local]
 ^https:\/\/edu\.51itzl\.com\/frontend\/get_data url script-response-body https://raw.githubusercontent.com/lxs1976/Rewriteqqq/main/charge_to_zero.js
+                                                    
 
 [mitm]
 hostname = edu.51itzl.com
