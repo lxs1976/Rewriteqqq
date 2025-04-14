@@ -1,9 +1,9 @@
 [rewrite_local]
-^https:\/\/edu\.51itzl\.com\/frontend\/get_data url script-response-body charge_to_zero.js
+^https:\/\/edu\.51itzl\.com\/frontend\/get_data url script-response-body 51css.js
 
 [mitm]
 hostname = edu.51itzl.com
-// charge_to_zero.js
+
 var bodyData = JSON.parse($response.body);
 
 // 如果是数组，遍历每个对象并设置 charge=0
